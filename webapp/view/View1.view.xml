@@ -1,0 +1,19 @@
+<mvc:View controllerName="demo.sapui5.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Label id="label0" text="First Name" required="true" placeholder="Enter FirstName"/>
+						<Input id="input0" type="Text" value="SriDevi"/>
+						<Label id="label1" text="Lastname" required="true" placeholder="Enter LastName"/>
+						<Input id="input1" type="Text" value="Ravi"/>
+						<Label id="label2" text="Phone" required="true" placeholder="Phone"/>
+						<Input id="input2" type="Number" value="8926782681"/>
+						<Button id="button1" text="Submit" type="Accept" press="onClick"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
